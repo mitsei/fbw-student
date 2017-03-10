@@ -92,7 +92,8 @@ webpackConfig.plugins = [
   // http://stackoverflow.com/questions/31249976/webpack-conditional-require
   new webpack.DefinePlugin({
     "process.env": {
-      BROWSER: JSON.stringify(true)
+      BROWSER: JSON.stringify(true),
+      BACKEND: JSON.stringify(process.env.BACKEND || 'localhost:8888')
     }
   })
 ]
