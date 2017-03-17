@@ -1,3 +1,6 @@
+1.2.1:
+  - Remove ACC button styling.
+
 1.2.0:
   - Disable ACC login button for our installation.
 
