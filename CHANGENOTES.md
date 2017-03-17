@@ -1,3 +1,6 @@
+1.3.0:
+  - Switch behavior to get sections and questions independently.
+
 1.2.1:
   - Remove ACC button styling.
 
