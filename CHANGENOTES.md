@@ -1,3 +1,6 @@
+1.3.1:
+  - Make adaptive-common more robust against new section / questions format.
+
 1.3.0:
   - Switch behavior to get sections and questions independently.
 
