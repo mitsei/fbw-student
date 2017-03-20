@@ -1,3 +1,7 @@
+1.4.0:
+  - Remove ACC logout reminder.
+  - Remove logger.
+
 1.3.1:
   - Make adaptive-common more robust against new section / questions format.
 
