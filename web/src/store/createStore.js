@@ -1,3 +1,4 @@
+import _ from 'lodash'
 import { applyMiddleware, compose, createStore, combineReducers } from 'redux'
 import thunk from 'redux-thunk'
 import { browserHistory } from 'react-router'
@@ -5,13 +6,13 @@ import persistState from 'redux-localstorage'
 import makeRootReducer from './reducers'
 import { updateLocation } from './location'
 
-import logger from 'adaptive-common/logger'
+// import logger from 'adaptive-common/logger'
 
 export default (initialState = {}) => {
   // ======================================================
   // Middleware Configuration
   // ======================================================
-  const middleware = [thunk, logger]
+  const middleware = [thunk]
 
   // ======================================================
   // Store Enhancers
