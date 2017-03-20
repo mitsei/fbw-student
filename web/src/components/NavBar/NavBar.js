@@ -93,7 +93,8 @@ class NavBar extends Component {
   }
 
   _logout = () => {
-    browserHistory.push('/logout-success')
+    browserHistory.push('/login')
+    // browserHistory.push('/logout-success')
     this.props.logout();
   }
 
