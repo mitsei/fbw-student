@@ -1,3 +1,6 @@
+1.4.1:
+  - More updates to adaptive-common.
+
 1.4.0:
   - Remove ACC logout reminder.
   - Remove logger.
