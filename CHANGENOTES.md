@@ -1,3 +1,6 @@
+1.4.3:
+  - Update adaptive-common.
+
 1.4.2:
   - Update the MissionContainer in adaptive-common.
 
