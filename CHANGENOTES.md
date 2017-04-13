@@ -1,3 +1,8 @@
+## [1.4.4] - 2017-04-13:
+### Changed
+- MathJax CDN to cloudflare.
+- Removed GA.
+
 1.4.3:
   - Update adaptive-common.
 
@@ -31,3 +36,5 @@
 
 1.0.0:
   - Initial fork from FBW repo.
+
+[1.4.4]: https://github.com/mitsei/fbw-student/compare/1.4.3...1.4.4
